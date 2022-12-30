@@ -15,6 +15,10 @@ html {
 .bolded {
   font-weight: bold;
 }
+
+.menu {
+  list-style-type: none;
+}
 /* Nagłówek */
 
 .wrapheader {
@@ -278,10 +282,13 @@ html {
     gap: 46px;
   }
 
+  .btn {
+    transition-duration: 1s;
+  }
+
   .btn:hover {
     background-color: white;
     color: black;
-    transition-duration: 1s;
   }
 
   .wraphero {
