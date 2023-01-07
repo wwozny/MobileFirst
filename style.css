@@ -344,10 +344,10 @@ html {
   .box {
     width: 198px;
     height: 194px;
+    transition-duration: 0.5s;
   }
   .box:hover {
     transform: scale(1.05);
-    transition-duration: 0.5s;
   }
   .footer {
     background-color: #4e4e4e;
